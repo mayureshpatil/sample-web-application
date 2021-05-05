@@ -23,6 +23,7 @@ agent {
 					   error "Pipeline aborted due to quality gate failure: ${qg.status}"
 				      }
                     		}
+			      sh "node -v"
 		    	    sh "mvn clean install"
 		  
                  	}
