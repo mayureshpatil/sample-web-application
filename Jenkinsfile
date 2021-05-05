@@ -7,7 +7,7 @@ pipeline{
 
                 }
             }
-        tools {nodejs "node_v10"}
+        tools {nodejs "node"}
         stages{
 
               stage('Quality Gate Status Check'){
