@@ -3,7 +3,7 @@ pipeline{
  
 agent {
                 docker {
-                image 'maven:3-openjdk-11'
+                image 'mayureshpatil/sonarjenkins:latest'
 			args '-v $HOME/.m2:/root/.m2'
 
                 }
