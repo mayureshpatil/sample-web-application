@@ -28,7 +28,16 @@ agent {
 		  
                  	}
                	 }  
-              }	
+              }
+			   stage('docker build') {
+            steps {
+                //Building and Tagging the Docker image
+              sh '''
+              
+                uptime
+				'''
+            }
+        }	
 		
             }	       	     	         
 }
