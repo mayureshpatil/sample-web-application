@@ -29,6 +29,15 @@ agent {
                  	}
                	 }  
               }	
-		
-            }	       	     	         
+		stage('Quality Gate Status Check'){
+                  steps{
+                      script{
+			       
+			      sh "uptime"
+                       	     	
+		      }
+		  }
+		}
+            	       	     	         
+}
 }
